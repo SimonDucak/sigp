@@ -1,6 +1,5 @@
 <template>
-  <div class="w-full h-full cursor-pointer relative" ref="sketchRef">
-    <i class="absolute top-1 left-1">Draw something here ...</i>
+  <div class="w-full h-full cursor-pointer" ref="sketchRef">
     <canvas
       ref="canvasRef"
       @mousedown="onMouseDown"
